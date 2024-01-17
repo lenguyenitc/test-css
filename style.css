@@ -67,6 +67,7 @@
       text-decoration: underline; }
       .elementor-widget-ica-content-filter .ica-content-filter .form-content-filter .tt-menu .tt-suggestion:hover {
         text-decoration: none; }
+
 .elementor-widget-ica-content-filter .ica-content-filter .template-filter-form .__filter-suggestion {
   display: flex;
   justify-content: space-between;
@@ -131,6 +132,7 @@
     .elementor-widget-ica-content-filter .ica-content-filter .template-filter-form .__filter-suggestion .btn-filter.__is-actived .fa {
       transform: rotate(90deg);
       transform-origin: center; }
+
 .elementor-widget-ica-content-filter .ica-content-filter .template-filter-form .__filter-options {
   display: none;
   margin-top: 8.5px; }
@@ -375,10 +377,12 @@
           padding: 6px 30px; } }
   .elementor-widget-ica-content-filter .ica-content-filter .template-filter-form .__filter-options.__is-actived {
     display: block; }
+
 .elementor-widget-ica-content-filter .ica-content-filter .log-error {
   color: #ff3030;
   font-size: 14px;
   display: none; }
+
 .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 {
   margin-top: 36px; }
   @media only screen and (max-width: 767px) {
@@ -457,7 +461,7 @@
             .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__title, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__title {
               font-size: 18px;
               margin-bottom: 15px; } }
-        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content {
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content_strip, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content_strip {
           font-size: 15px;
           font-weight: normal;
           font-stretch: normal;
@@ -465,8 +469,10 @@
           line-height: 1.47;
           letter-spacing: -0.1px;
           color: #2f2f39; }
-          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content p, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content p {
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content p, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content_strip p, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content p, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content_strip p {
             margin-bottom: 0; }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .__content_strip, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .__content_strip {
+          display: none; }
         .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter .__info .btn-readmore, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter .__info .btn-readmore {
           opacity: 0.7;
           font-size: 13px;
@@ -495,6 +501,19 @@
         padding: 0 16px 16px; }
         .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids .item-content-filter.post-faq .__info .btn-readmore, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids .item-content-filter.post-faq .__info .btn-readmore {
           margin-top: 10px; }
+    .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids.list-layout, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids.list-layout {
+      height: auto !important; }
+      .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids.list-layout .item-content-filter, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids.list-layout .item-content-filter {
+        width: 100%;
+        float: none;
+        position: static !important;
+        left: 0 !important; }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids.list-layout .item-content-filter .__featured-img, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids.list-layout .item-content-filter .__featured-img {
+          display: none; }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids.list-layout .item-content-filter .__content, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids.list-layout .item-content-filter .__content {
+          display: none; }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids.list-layout .item-content-filter .__content_strip, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids.list-layout .item-content-filter .__content_strip {
+          display: block; }
     .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .list-grids.template-team-list .item-content-filter, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .list-grids.template-team-list .item-content-filter {
       width: 100%;
       border: none;
@@ -844,6 +863,9 @@
     justify-content: space-between;
     border-bottom: solid 3px #4a4a4a;
     margin-bottom: 43px; }
+    @media (max-width: 420px) {
+      .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content {
+        flex-wrap: wrap; } }
     .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .info-numberposts, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .info-numberposts {
       font-size: 15px;
       font-weight: normal;
@@ -852,8 +874,89 @@
       line-height: 1.33;
       letter-spacing: -0.1px;
       color: #4a4a4a; }
-    .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .btn-sortby, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .btn-sortby {
+      @media (max-width: 420px) {
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .info-numberposts, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .info-numberposts {
+          width: 100%; } }
+    .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions {
       position: relative; }
+      .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions span, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions span {
+        font-size: 22px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.82;
+        letter-spacing: -0.32px;
+        text-align: right;
+        color: #4a4a4a;
+        display: flex;
+        align-items: center;
+        cursor: pointer; }
+        @media only screen and (max-width: 767px) {
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions span, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions span {
+            font-size: 18px; } }
+        @media only screen and (max-width: 540px) {
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions span, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions span {
+            font-size: 15px; } }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions span .fa, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions span .fa {
+          margin-left: 25px; }
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions span .fa::before, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions span .fa::before {
+            font-size: 30px; }
+      .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby {
+        display: none;
+        position: absolute;
+        padding: 18px;
+        z-index: 2;
+        width: 200px;
+        right: 0;
+        margin-top: 18px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px 0 rgba(26, 26, 26, 0.1), 0 0 0 1px rgba(26, 26, 26, 0.1);
+        background-color: #d8d8d8; }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby::before, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby::before {
+          content: "";
+          position: absolute;
+          right: 40px;
+          top: -12px;
+          border-top: none;
+          border-right: 12px solid transparent;
+          border-left: 12px solid transparent;
+          border-bottom: 12px solid #d8d8d8; }
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby .view-actions-item, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby .view-actions-item {
+          display: flex;
+          align-items: center;
+          font-size: 17px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 2.35;
+          letter-spacing: -0.25px;
+          color: #4a4a4a;
+          padding: 0 25px;
+          cursor: pointer;
+          position: relative; }
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby .view-actions-item .fa, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby .view-actions-item .fa {
+            margin-left: 10px; }
+            .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby .view-actions-item .fa::before, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby .view-actions-item .fa::before {
+              font-size: 16px; }
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby .view-actions-item.__is-actived::before, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby .view-actions-item.__is-actived::before {
+            content: '\f00c';
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            left: 0;
+            position: absolute; }
+          .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .view-actions .content-viewby .view-actions-item[data-order="asc"] .fa::before, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .view-actions .content-viewby .view-actions-item[data-order="asc"] .fa::before {
+            content: "\f176"; }
+    .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .btn-sortby, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .btn-sortby {
+      position: relative;
+      margin-left: auto;
+      margin-right: 20px; }
+      @media (max-width: 420px) {
+        .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .btn-sortby, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .btn-sortby {
+          margin-left: 0; } }
       .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results .sort-by-content .btn-sortby span, .elementor-widget-ica-content-filter .ica-content-filter .content-filter-results2 .sort-by-content .btn-sortby span {
         font-size: 22px;
         font-weight: bold;
@@ -962,6 +1065,7 @@
           align-items: center;
           font-size: 10px;
           margin-left: 15px; }
+
 .elementor-widget-ica-content-filter .ica-content-filter .content-filter-pagination {
   text-align: center; }
   .elementor-widget-ica-content-filter .ica-content-filter .content-filter-pagination button[name="button-showmore"] {
@@ -979,6 +1083,7 @@
     border: solid 1px #2f2f39;
     border-radius: 0;
     margin: 10px 0; }
+
 .elementor-widget-ica-content-filter.__is-loading {
   opacity: 0.5; }
   .elementor-widget-ica-content-filter.__is-loading:after {
@@ -990,18 +1095,54 @@
     background: transparent;
     z-index: 2;
     height: 100%; }
-    .ui-datepicker-calendar,.ui-datepicker-current {
-            display: none;
-        }
-        .ui-datepicker .ui-datepicker-buttonpane button {
-    border-radius: 0;
-    background: #2A8164;
-    color: #ffffff;
-    border: none;
-}
-.ui-widget-content{border: none}
+
 @media (max-width: 480px) {
   .ui-datepicker table {
     table-layout: fixed; } }
 
-/*# sourceMappingURL=content-filter.css.map */
+/* Custom code */
+.ica-content-filter .title-search{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.dialog-results{
+  position: absolute;
+  width: 100%;
+  background-color: #E5E3DC;
+  padding: 10px 30px;
+  z-index: 9;
+  max-width: 260px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -2px;
+}
+
+.dialog-results .ui-button-icon{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.dialog-results p{
+  margin: 0;
+  line-height: normal;
+  color: #000;
+  font-weight: bold;
+}
+
+.dialog-results a{
+  color: #000;
+  outline: none;
+}
+
+.dialog-results a:hover{
+  text-decoration: underline;
+  outline: none;
+}
+/* Custom code */
